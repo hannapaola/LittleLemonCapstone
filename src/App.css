@@ -1,44 +1,7 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-/* Application*/
 
 main {
  background-color: #EDEFEE;
@@ -75,8 +38,57 @@ button {
   border-radius: 5px;
 }
 
-nav {
-  padding: 5px;
+nav ul {
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  white-space:nowrap;
+}
+
+nav a {
+  height: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+nav li:first-child {
+  margin-right: auto;
+  padding: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  float: left;
+  left: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.sidebar {
+  padding: 0px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #edefeec5;
+  backdrop-filter: blur(10px);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.sidebar li {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.sidebar li:first-child{
+  padding-top: 5px;
+  text-align: right;
 }
 
 .mainsection {
@@ -108,3 +120,15 @@ footer {
   color: #EDEFEE;
 }
 
+.menuButton {
+  display: none;
+}
+
+@media(max-width: 980px){
+  .hideOnMobile{
+    display: none;
+  }
+  .menuButton{
+    display: block;
+  }
+}

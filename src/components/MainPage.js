@@ -10,7 +10,7 @@ import tiramisu from "../images/tiramisu.jpg"
 
 const MainPage = () =>{
     return (
-        <body>
+        <div className="mainpage">
             <div className="mainsection">
                 <h1>Little Lemon</h1>
                 <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
@@ -53,7 +53,7 @@ const MainPage = () =>{
                 <p>+00 123 456 789</p>
                 <a className="mailto" href="mailto: little@lemon.com">little@lemon.com</a>
             </div>
-        </body>
+        </div>
 );
 }
 

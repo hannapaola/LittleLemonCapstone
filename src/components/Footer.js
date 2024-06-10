@@ -6,7 +6,7 @@ const Footer = () =>{
         <footer>
             <div className="footerinfo">
                 <img className="logo" src={greenSquare} alt="Little Lemon Logo" width="60px"/>
-                <div class="footersection">
+                <div className="footersection">
                     <h3>Links</h3>
                     <ul className="navlinks">
                         <li><a href="/">Home</a></li>
@@ -16,7 +16,7 @@ const Footer = () =>{
                         <li><a href="/">Contact us</a></li>
                     </ul>
                 </div>
-                <div class="footersection">
+                <div className="footersection">
                     <h3>Social Media</h3>
                     <ul className="navlinks">
                         <li><a href="https://www.facebook.com/">Facebook</a></li>
@@ -25,7 +25,7 @@ const Footer = () =>{
                     </ul>
                 </div>
             </div>
-            <div class="copyright">
+            <div className="copyright">
                 <p>Little Lemon Copyright 2024 ©</p>
             </div>
         </footer>
