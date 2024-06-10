@@ -36,3 +36,75 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Application*/
+
+main {
+ background-color: #EDEFEE;
+ color: #333333;
+}
+
+img {
+  border-radius: 25px;
+}
+
+img.logo {
+  border-radius: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color :#495E57;
+  text-decoration: none;
+}
+
+a:hover{
+  font-weight: bold;
+}
+
+button {
+  background-color: #F4CE14;
+  color: #495E57;
+  border: none;
+  text-align: center;
+  font-size: 29px;
+  border-radius: 5px;
+}
+
+nav {
+  padding: 5px;
+}
+
+.mainsection {
+  padding: 10px;
+  background-color: #495E57;
+  color: #EDEFEE;
+}
+
+.contactussection {
+  padding: 10px;
+  background-color: #495E57;
+  color: #EDEFEE;
+}
+
+.mailto {
+  color: #EDEFEE;
+}
+
+footer {
+  padding-top: 10px;
+  background-color: #F4CE14;
+  color: #495E57;
+  text-align: center;
+}
+
+.copyright {
+  padding: 1px;
+  background-color: #d7b60f;
+  color: #EDEFEE;
+}
+
