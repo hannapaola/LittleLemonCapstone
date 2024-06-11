@@ -8,16 +8,21 @@ import tiramisu from "../images/tiramisu.jpg"
 
 // Images from https://blog.supermercadosmas.com/20-recetas-de-cocina-mediterranea-para-una-dieta-sana/
 
-const MainPage = () =>{
+const Header = () =>{
     return (
         <div className="mainpage">
-            <div className="mainsection">
-                <h1>Little Lemon</h1>
-                <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
-                <img src={menu} alt="Menu" width="95%"/>
-                <button>Reserve a Table</button>
+            <div className="banner">
+                <div>
+                    <h1>Little Lemon</h1>
+                    <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
+                    <p>Now you can reserve online!</p>
+                    <button>Reserve a Table</button>
+                </div>
+                <div>
+                    <img src={menu} alt="Menu" width="95%"/>
+                </div>
             </div>
-            <div className="dishessection">
+            <div className="dishes">
                 <h2>Our specialties</h2>
                 <ul className="dishes">
                 <li>
@@ -47,14 +52,14 @@ const MainPage = () =>{
                     </li>
                 </ul>
             </div>
-            <div className="contactussection">
+            <div className="contactus">
                 <h2>Contact us!</h2>
                 <p>123 Town Street, Chicago</p>
                 <p>+00 123 456 789</p>
-                <a className="mailto" href="mailto: little@lemon.com">little@lemon.com</a>
+                {/*<a className="mailto" href="mailto: little@lemon.com">little@lemon.com</a>*/}
             </div>
         </div>
 );
 }
 
-export default MainPage;
+export default Header;

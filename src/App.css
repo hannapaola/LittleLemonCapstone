@@ -29,15 +29,6 @@ a:hover{
   font-weight: bold;
 }
 
-button {
-  background-color: #F4CE14;
-  color: #495E57;
-  border: none;
-  text-align: center;
-  font-size: 29px;
-  border-radius: 5px;
-}
-
 nav ul {
   width: 95%;
   display: flex;
@@ -91,13 +82,46 @@ nav li:first-child {
   text-align: right;
 }
 
-.mainsection {
+
+.banner {
   padding: 10px;
   background-color: #495E57;
   color: #EDEFEE;
+  display:block;
 }
 
-.contactussection {
+@media (min-width:800px) {
+  .banner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
+.banner div {
+  padding: 20px;
+}
+
+.banner h1 {
+  font-size: 20pt;
+  color: #F4CE14;
+}
+
+.banner p {
+  padding: 10px 20px;
+}
+
+button {
+  background-color: #F4CE14;
+  color: #495E57;
+  border: none;
+  font-size: 29px;
+  border-radius: 5px;
+  float : right;
+  padding: 5px 20px;
+  margin-top: 15px;
+}
+
+.contactus {
   padding: 10px;
   background-color: #495E57;
   color: #EDEFEE;
