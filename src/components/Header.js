@@ -27,27 +27,27 @@ const Header = () =>{
                 <ul className="dishes">
                 <li>
                     <h4>Greek salad</h4>
-                        <img src={greekSalad} alt="Greek fresh salad" width="300px" />
+                        <img src={greekSalad} alt="Greek fresh salad" width="95%" />
                         <p>Fresh and juicy salad with ingredients from Mediterranean cuisine such as tomato, cucumber, red onion, feta cheese, olives, oregano and salt.</p>
                     </li>
                     <li>
                         <h4>Mixed paella</h4>
-                        <img src={paella} alt="Traditional mixed paella" width="300px" />
+                        <img src={paella} alt="Traditional mixed paella" width="95%" />
                         <p>Totally emblematic dish of the Mediterranean culture that combines the traditional recipe with ingredients such as seafood, vegetables, beans and chicken.</p>
                     </li>
                     <li>
                         <h4>Bean and vegetable salad</h4>
-                        <img src={beanSalad} alt="Bean and vegetable salad" width="300px" />
+                        <img src={beanSalad} alt="Bean and vegetable salad" width="95%" />
                         <p>Bean salad with onion, tomato and parsley that you can complement with egg and a wide variety of homemade oil-based dressings.</p>
                     </li>
                     <li>
                         <h4>Grilled sardines</h4>
-                        <img src={sardines} alt="Grilled sardines" width="300px" />
+                        <img src={sardines} alt="Grilled sardines" width="95%" />
                         <p>Healthy sardines cooked over charcoal with garlic, lemon, and a handful of fresh parsley. Add a little of our special hot sauce to enhance its flavor.</p>
                     </li>
                     <li>
                         <h4>Tiramisú</h4>
-                        <img src={tiramisu} alt="Tiramisú" width="300px" />
+                        <img src={tiramisu} alt="Tiramisú" width="95%" />
                         <p>King of the desserts of Italian cuisine, essence of the Mediterranean, prepared with a base of coffee with sponge cake, egg, sugar, mascarpone cheese, cocoa.</p>
                     </li>
                 </ul>

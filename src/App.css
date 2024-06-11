@@ -123,6 +123,7 @@ button {
   float : right;
   padding: 5px 20px;
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .reserveTable h1 {
@@ -176,9 +177,33 @@ input.submitButton {
   font-size: 45pt;
   margin: 10px;
 }
+
 .confirmation h2 {
   font-size: 35pt;
   margin: 20px;
+}
+
+.dishes {
+  text-align: center;
+}
+.dishes h2 {
+  font-size: 25pt;
+  color: #495E57;
+}
+
+.dishes h4 {
+  font-size: 20pt;
+  color: #495E57;
+  margin-bottom: 5px;
+}
+
+ul.dishes li{
+  margin: 15px;
+  padding: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 20px;
+  border-color: #F4CE14;
 }
 
 .contactus {
