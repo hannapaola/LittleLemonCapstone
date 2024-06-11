@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const BookingForm = (props) =>{
     const [name, setName] = useState("");
@@ -14,12 +15,12 @@ const BookingForm = (props) =>{
 
     const handleChange = (e) => {
         setDate(e);
-        props.dispatch(e);
+        // props.dispatch(e);
     }
 
     const handleSubmit = (e) => {
         e.PreventDefault();
-        props.SubmitForm(e);
+        // props.SubmitForm(e);
     }
 
     return (
@@ -59,7 +60,10 @@ const BookingForm = (props) =>{
                         <input id="childsSelection" min="0" value={childs} onChange={(e)=>setChilds(e.target.value)}/>
                     </div>
                     <div>
-                        <input className="submitButton" aria-label="On Click" type="submit" value={"Reserve"}/>
+                        {/* <input className="submitButton" aria-label="On Click" type="submit" value={"Reserve"}/> */}
+                        <Link to="/confirmation">
+                            <button className="submitButton">Reserve</button>
+                        </Link>
                     </div>
                 </fieldset>
             </form>

@@ -122,7 +122,7 @@ button {
   border-radius: 5px;
   float : right;
   padding: 5px 20px;
-  margin-top: 15px;
+  margin-top: auto;
   margin-bottom: 15px;
 }
 
@@ -179,13 +179,14 @@ input.submitButton {
 }
 
 .confirmation h2 {
-  font-size: 35pt;
+  font-size: 30pt;
   margin: 20px;
 }
 
 .dishes {
   text-align: center;
 }
+
 .dishes h2 {
   font-size: 25pt;
   color: #495E57;
@@ -197,6 +198,12 @@ input.submitButton {
   margin-bottom: 5px;
 }
 
+ul.dishes{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 ul.dishes li{
   margin: 15px;
   padding: 10px;
@@ -204,6 +211,21 @@ ul.dishes li{
   border-width: 5px;
   border-radius: 20px;
   border-color: #F4CE14;
+  flex: 1;
+  flex-basis: 25%;
+}
+
+@media (max-width:500px) {
+  ul.dishes li{
+    margin: 15px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+    border-color: #F4CE14;
+    flex: 1;
+    flex-basis: 80%;
+  }
 }
 
 .contactus {
@@ -229,8 +251,18 @@ footer {
   text-align: center;
 }
 
+.footerlinks{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  column-gap: 30px;
+  flex-wrap: wrap;
+}
+
 .footersection {
   padding: 15px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .copyright {
