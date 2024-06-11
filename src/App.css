@@ -166,25 +166,50 @@ input.submitButton {
   padding: 5px 20px;
 }
 
+.confirmation{
+  padding: 20px;
+  text-align: center;
+  color: #495E57;
+}
+
+.confirmation h1 {
+  font-size: 45pt;
+  margin: 10px;
+}
+.confirmation h2 {
+  font-size: 35pt;
+  margin: 20px;
+}
+
 .contactus {
-  padding: 10px;
+  padding: 20px;
   background-color: #495E57;
   color: #EDEFEE;
+  text-align: center;
+}
+
+.contactus h2 {
+  font-size: 30pt;
 }
 
 .mailto {
   color: #EDEFEE;
+  text-decoration: underline;
 }
 
 footer {
-  padding-top: 10px;
+  padding-top: 15px;
   background-color: #F4CE14;
   color: #495E57;
   text-align: center;
 }
 
+.footersection {
+  padding: 15px;
+}
+
 .copyright {
-  padding: 1px;
+  padding: 2px;
   background-color: #d7b60f;
   color: #EDEFEE;
 }
