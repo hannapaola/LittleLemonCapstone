@@ -16,6 +16,10 @@ img.logo {
   border-radius: 0px;
 }
 
+.bannerImage{
+  border-radius: 0px;
+}
+
 li {
   list-style-type: none;
 }
@@ -102,7 +106,7 @@ nav li:first-child {
 }
 
 .banner h1 {
-  font-size: 20pt;
+  font-size: 30pt;
   color: #F4CE14;
 }
 
@@ -119,6 +123,47 @@ button {
   float : right;
   padding: 5px 20px;
   margin-top: 15px;
+}
+
+.reserveTable h1 {
+  font-size: 30pt;
+  color: #495E57;
+}
+
+.reserveTable div {
+  padding: 20px;
+}
+
+.reserveTable label {
+  font-size: 16pt;
+  color: #333333;
+  padding: 20px;
+}
+
+.reserveTable input {
+  font-size: 16pt;
+  background-color:#495E57;
+  color: #EDEFEE;
+  border-radius: 5px;
+  padding: 2px 10px;
+  color-scheme: dark;
+}
+
+.reserveTable select {
+  font-size: 16pt;
+  background-color:#495E57;
+  color: #EDEFEE;
+  border-radius: 5px;
+  border-color: #495E57;
+  padding: 2px 10px;
+}
+
+input.submitButton {
+  font-size: 18pt;
+  color: #495E57;
+  background-color: #F4CE14;
+  border-color: #F4CE14;
+  padding: 5px 20px;
 }
 
 .contactus {
