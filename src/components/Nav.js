@@ -25,7 +25,7 @@ const Nav = () =>{
                 <li><a href="/">Contact us</a></li>
             </ul>
             <ul>
-                <li><a href="/"><img className="logo" src={colorLittleLemon} alt="Little Lemon Logo" width="250px"/></a></li>
+                <li><a href="/"><img className="logo" src={colorLittleLemon} alt="Little Lemon Logo" width="200px"/></a></li>
                 <li className="hideOnMobile"><a href="/">Home</a></li>
                 <li className="hideOnMobile"><a href="/">About us</a></li>
                 <li className="hideOnMobile"><a href="/">Menu</a></li>
