@@ -154,13 +154,41 @@ button {
   padding: 20px;
 }
 
-.reserveTable input {
+.inputdiv input {
   font-size: 16pt;
   background-color:#495E57;
   color: #EDEFEE;
   border-radius: 5px;
   padding: 2px 10px;
   color-scheme: dark;
+  width: 70%;
+}
+
+.inputdiv label {
+  width: 15%;
+  min-width: 100px;
+  display: inline-block;
+}
+
+.longlabel {
+  width: 150px;
+}
+
+.checkbox {
+  width: 20px;
+}
+
+.requestbox{
+  font-size: 16pt;
+  background-color:#495E57;
+  color: #EDEFEE;
+  border-radius: 5px;
+  padding: 2px 10px;
+  color-scheme: dark;
+  margin-top: -50px;
+  margin-left: 20px;
+  height: 80px;
+  width: 87%;
 }
 
 .reserveTable select {
@@ -170,14 +198,20 @@ button {
   border-radius: 5px;
   border-color: #495E57;
   padding: 2px 10px;
+  width: 73%;
 }
 
 input.submitButton {
-  font-size: 18pt;
+  font-size: 20pt;
   color: #495E57;
   background-color: #F4CE14;
   border-color: #F4CE14;
-  padding: 5px 20px;
+  padding: 5px 60px;
+  border-radius: 10px;
+}
+
+.divSubmitButton {
+  text-align: center;
 }
 
 .confirmation{

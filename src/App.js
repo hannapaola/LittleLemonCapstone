@@ -3,25 +3,35 @@ import Nav from './components/Nav';
 import Header from './components/Header';
 import Booking from './components/Booking';
 import Confirmation from './components/Confirmation';
-// import Main from './components/Main';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route, useNavigate } from 'react-router-dom';
 
 function App() {
+
+  const submitAPI = function(formData){
+    return true;
+  }
+
+  const navigate = useNavigate();
+
+  function submitForm(formData){
+    if (submitAPI(formData)){
+      navigate("/confirmation");
+    }
+  }
+
   return (
     <main>
-      <BrowserRouter>
-        <Nav />
-             <Routes>
-                 <Route path="/" element={<Header />}/>
-                 <Route path="/booking" element={<Booking />}/>
-                 <Route path="/confirmation" element={<Confirmation />}/>
-             </Routes>
-        <ContactUs />
-        <Footer />
-      </BrowserRouter>
+      <Nav />
+      <Routes>
+          <Route path="/" element={<Header />}/>
+          <Route path="/booking" element={<Booking SubmitForm={submitForm}/>}/>
+          <Route path="/confirmation" element={<Confirmation />}/>
+      </Routes>
+      <ContactUs />
+      <Footer />
     </main>
 );
 }
