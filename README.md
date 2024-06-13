@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Little Lemon Capstone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Capstone for the Meta Front-End Developer Professional Certificate.
 
-## Available Scripts
+A responsive website was designed for the Little Lemon restaurant with the option to make an online reservation.
 
-In the project directory, you can run:
+![image](./doc/images/littlelemon.png)
 
-### `npm start`
+The reservation page allows users to enter their details and select between the different available dates and times, as well as giving the option to enter special requests for your visit.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![image](./doc/images/reservationpage.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### UI and UX design
 
-### `npm test`
+This project was the final stage of a Front End learning journey, that included also a design process with different stages.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Although this process focused more on the design of the page on mobile devices, it is possible to see the evolution from them, which is why they are presented below:
 
-### `npm run build`
+1. A [persona](https://www.figma.com/proto/aEClVKe4ZWJ4CDWY6mqgW3/Little-Lemon-Project?node-id=302-112&t=oXCkMu6K43Mxi1ON-1&scaling=contain&page-id=302%3A110 ) creation. ![image](./doc/images/persona.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. A [journey map](https://www.figma.com/proto/aEClVKe4ZWJ4CDWY6mqgW3/Little-Lemon-Project?node-id=308-82&t=zyESF54rLVe6pWpQ-1&scaling=min-zoom&page-id=306%3A82 ) analysis. ![image](./doc/images/journeymap.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. The [wireframes](https://www.figma.com/proto/aEClVKe4ZWJ4CDWY6mqgW3/Little-Lemon-Project?node-id=323-584&t=RiFUZQlkAOMcFRVl-1&scaling=scale-down&page-id=313%3A428 ) design. ![image](./doc/images/wireframes.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. A [prototype](https://www.figma.com/proto/aEClVKe4ZWJ4CDWY6mqgW3/Little-Lemon-Project?node-id=322-171&t=745urEme6OuF2qpD-1&scaling=scale-down&page-id=322%3A170&starting-point-node-id=322%3A171 ) implementation. ![image](./doc/images/prototype.png)
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Those were designed in Figma and you can access their preview by clicking the corresponding links of each one.
