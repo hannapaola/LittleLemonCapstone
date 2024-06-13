@@ -10,8 +10,6 @@ const BookingForm = (props) =>{
     const [special, setSpecial] = useState(false);
     const [request, setRequest] = useState("");
 
-    const hours = ["14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30", "18:00", "18:30", "19:00", "19:30", "20:00"]
-
     const handleCheckboxChange = (event) => {
         setSpecial(event.target.checked);
     };
@@ -54,7 +52,7 @@ const BookingForm = (props) =>{
                         <select id="hourSelection" value={hour} onChange={(e)=>setHour(e.target.value)}>
                             <option value="">Select hour</option>
                             {
-                                hours.map( (s) => ( <option key={s}>{s}</option> ) )
+                                props.availableTimes.availableTimes.map( (s) => ( <option key={s}>{s}</option> ) )
                             }
                         </select>
                     </div>

@@ -13,8 +13,8 @@ import { Helmet } from 'react-helmet';
 
 function App() {
 
-  const ogTitle = "Little Lemon Capstone";
-  const ogDescription = "Capstone for the Meta Front-End Developer Professional Certificate";
+  const title = "Little Lemon Capstone";
+  const description = "Capstone for the Meta Front-End Developer Professional Certificate";
 
   const submitAPI = function(formData){
     return true;
@@ -31,11 +31,12 @@ function App() {
   return (
     <div>
       <Helmet>
-        <title>Little Lemon Capstone</title>
+        <title>{title}</title>
         <link rel="icon" type="image/png" href={icon} sizes="16x16" />
-        <meta property="og:title" content={ogTitle} />
+        <meta name="description" content={description} />
+        <meta property="og:title" content={title} />
         <meta property="og:image" content={ogImage} />
-        <meta property="description" content={ogDescription} />
+        <meta property="description" content={description} />
       </Helmet>
       <Nav />
       <Routes>
