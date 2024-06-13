@@ -5,10 +5,16 @@ import Booking from './components/Booking';
 import Confirmation from './components/Confirmation';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
+import icon from "./images/greenLemon.png"
+import ogImage from './images/menu.jpg';
 
 import { Routes, Route, useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 function App() {
+
+  const ogTitle = "Little Lemon Capstone";
+  const ogDescription = "Capstone for the Meta Front-End Developer Professional Certificate";
 
   const submitAPI = function(formData){
     return true;
@@ -23,7 +29,14 @@ function App() {
   }
 
   return (
-    <main>
+    <div>
+      <Helmet>
+        <title>Little Lemon Capstone</title>
+        <link rel="icon" type="image/png" href={icon} sizes="16x16" />
+        <meta property="og:title" content={ogTitle} />
+        <meta property="og:image" content={ogImage} />
+        <meta property="description" content={ogDescription} />
+      </Helmet>
       <Nav />
       <Routes>
           <Route path="/" element={<Header />}/>
@@ -32,7 +45,7 @@ function App() {
       </Routes>
       <ContactUs />
       <Footer />
-    </main>
+    </div>
 );
 }
 
