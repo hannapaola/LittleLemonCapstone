@@ -9,6 +9,7 @@ const Confirmation = () =>{
             </div>
             <div className="confirmation">
                 <h1>Your reservation is ready!</h1>
+                <p>We have send you the confirmation to the registered email.</p>
                 <h2>We will see you soon</h2>
             </div>
         </div>

@@ -5,7 +5,7 @@ const BookingForm = (props) =>{
     const [email, setEmail] = useState("");
     const [date, setDate] = useState("");
     const [hour, setHour] = useState("");
-    const [adults, setAdults] = useState("");
+    const [adults, setAdults] = useState(1);
     const [childs, setChilds] = useState("");
     const [special, setSpecial] = useState(false);
     const [request, setRequest] = useState("");
